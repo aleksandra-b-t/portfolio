@@ -1,10 +1,12 @@
-import React, { memo } from 'react'
+import React from 'react';
 
 
-const About = () => {
+const About = (props) => {
     return (
-        <div>
-            <h1>About section</h1>
+        <div className="container" onClick={(e) => props.positionInfo(e) }>
+            <div className="item" >
+                <h1>About section</h1>
+            </div>
         </div>
     )
 }
