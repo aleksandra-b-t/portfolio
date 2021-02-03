@@ -7,15 +7,14 @@ function App() {
   const [position, setPosition] = useState({});
   
   const positionInfo = (e) => {
-    var d = document.getElementById('element-1');
-    d.style.left = e.clientY + 'px';
-    d.style.top = e.clientX + 'px';
-
-    // var d = document.getElementById('element-1');
-    // d.style.position = "absolute";
-    // d.style.left = x_pos+'px';
-    // d.style.top = y_pos+'px';
-    console.log(d.style)
+    e.preventDefault()
+    var c = document.getElementById(`${e.target.parentElement.id}`);
+    var element = document.getElementById(`${e.target.id}`);
+    var positionY = e.clientY - (c.offsetHeight / 2);
+    var positionX = e.clientX - (c.offsetWidth / 2);
+   
+    var translateValue = "translate3d(" + positionX + "px," + positionY + "px, 0)";
+    element.style.transform = translateValue;
   }
   return (
     <>
