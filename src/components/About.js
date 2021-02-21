@@ -12,5 +12,3 @@ const About = (props) => {
 
 
 export default About
-
-{/* <div className="item" id="element-1" onMouseDown={(e) => props.positionInfo(e) }> */}
