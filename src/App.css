@@ -15,20 +15,24 @@ justify-content: center;
   width: 90%;
   height: auto;
   justify-self: center;
-  /* text-shadow: 2px 2px whitesmoke; */
   color: transparent;
+  animation-name: example;
+  animation-delay: 1s;
+  animation-duration: 4s;
 }
 #text {
-  font: bolder 12vw;
-  text-align:  center;
+  font: bolder 11vw;
   margin: 0;
-  background: url("https://rpsthecoder.github.io/img-repo/Taitō%20by%20Jezael%20Melgoza.jpg") center;
-  background-size: contain;
-  margin: auto;
-  width: 75vw;
-  background-clip: text;
-  -webkit-background-clip: text;
+  -webkit-text-stroke: 2px white;
   color: transparent;
+  
+}
+@keyframes example {
+  0%   {left:500px}
+  25%  {left:350px}
+  50%  {left:200px}
+  75%  {left:50px}
+  100% {left:0px}
 }
 .item {
   width: 100%;
