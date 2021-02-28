@@ -4,49 +4,63 @@ background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-background-color: grey;
+background-color: black;
 color: whitesmoke;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: xx-large;
 text-align: center;
 justify-content: center;
 }
 .container {
-  width: 90%;
+  width: 50%;
   height: auto;
-  justify-self: center;
-  color: transparent;
-  animation-name: example;
-  animation-delay: 1s;
-  animation-duration: 4s;
+  margin: 2rem;
+  text-align: left;
 }
-#text {
+#text1 {
   font: bolder 11vw;
   margin: 0;
   -webkit-text-stroke: 2px white;
   color: transparent;
-  
+  font-size: 4rem;
 }
-@keyframes example {
-  0%   {left:500px}
-  25%  {left:350px}
-  50%  {left:200px}
-  75%  {left:50px}
-  100% {left:0px}
+#text2 {
+  font: bolder 11vw;
+  margin: 0;
+  -webkit-text-stroke: 2px white;
+  color: white;
+  opacity: 0.7;
+  font-size: 4rem;
 }
 .item {
   width: 100%;
   height: 100%;
-  position: absolute;
 }
 @media only screen and (max-device-width: 480px) {
   .container {
+    margin: 1rem;
     width: 90%;
     height: auto;
-    background-color: red;
+    /* background-color: red; */
   }
-  #text {
+  #text1 {
     color: transparent;
     font-size: xx-large;
   }
+  #text2 {
+    color: white;
+    opacity: 0.7;
+    font-size: xx-large;
+  }
+  .mail {
+    height: 8px;
+    width: 10px;
+    justify-content: right;
+    margin: 0.5rem;
+  }
+}
+.mail {
+  height: 10px;
+  width: 12px;
+  justify-content: right;
+  margin: 0.5rem;
 }

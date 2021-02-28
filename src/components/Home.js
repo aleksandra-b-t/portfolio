@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
     return (
         <div>
-            Logo
+            <img src='images/mail.jpg' className='mail' alt='mail icon' />
         </div>
     )
 }
