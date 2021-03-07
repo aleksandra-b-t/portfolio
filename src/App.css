@@ -17,14 +17,12 @@ justify-content: center;
   text-align: left;
 }
 #text1 {
-  font: bolder 11vw;
   margin: 0;
   -webkit-text-stroke: 2px white;
   color: transparent;
   font-size: 4rem;
 }
 #text2 {
-  font: bolder 11vw;
   margin: 0;
   -webkit-text-stroke: 2px white;
   color: white;
@@ -40,7 +38,6 @@ justify-content: center;
     margin: 1rem;
     width: 90%;
     height: auto;
-    /* background-color: red; */
   }
   #text1 {
     color: transparent;
@@ -63,4 +60,24 @@ justify-content: center;
   width: 12px;
   justify-content: right;
   margin: 0.5rem;
+}
+
+.company-name {
+  -webkit-text-stroke: 2px white;
+  color: white;
+  opacity: 0.7;
+  font-size: 4rem;
+  font-size: xxx-large;
+  font-weight: bolder;
+}
+.experience {
+  text-align: left;
+  margin: 3rem;
+}
+.position {
+  font: bolder 11vw;
+  margin: 0;
+  -webkit-text-stroke: 0.5px white;
+  color: transparent;
+  font-size: 1.5rem;
 }
