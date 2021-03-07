@@ -75,6 +75,7 @@ justify-content: center;
   margin: 3rem;
 }
 .position {
+  display: inline;
   font: bolder 11vw;
   margin-top: 10px;
   -webkit-text-stroke: 0.5px white;
@@ -85,4 +86,8 @@ p.location {
   margin: 0px;
   font-variant: petite-caps;
   font-style: italic;
+}
+p.dates {
+  display: inline;
+  float: right;
 }
