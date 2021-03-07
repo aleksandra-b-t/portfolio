@@ -1,8 +1,12 @@
 import React from 'react';
+import ff from '../images/ff.jpeg';
+import fp from '../images/fp.png';
+import nd from '../images/nd.png';
 
 const Experience = () => {
     return (
         <div className='experience'>
+            <img src={fp} />
             <div className='company-name'>DoinGud</div>
             <div className='pos-dat'>
                 <div className='position'>Engineering Lead</div>
@@ -19,6 +23,7 @@ const Experience = () => {
                 An analyzed and updated database of the Fight Pandemics to improve resource search.
              </p> 
 
+             <img src={nd} />
             <div className='company-name'> ND CHANNEL</div>
             <p className='location'>New York City Metropolitan Area</p>
             <div className='pos-dat'>
@@ -29,6 +34,7 @@ const Experience = () => {
             Adapted customer service policy to make sure every customer was taken care of in an unconditional standard system, which in turn helped create an impeccable company reputation.
                </p>  
 
+               <img src={ff} />
             <div className='company-name'>Fabryka Formy S.A.</div>
             <p className='location'>Bytom, Śląskie, Poland</p>
             <div className='pos-dat'>
