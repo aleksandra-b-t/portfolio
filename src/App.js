@@ -10,11 +10,11 @@ function App() {
   const [position, setPosition] = useState({});
   return (
     <>
-      {/* <Home />
-      <About /> */}
-      <Experience/>
+      <Home />
+      <About />
+      {/* <Experience/>
       <Projects/>
-      <Footer/>
+      <Footer/> */}
     </>
   );
 }

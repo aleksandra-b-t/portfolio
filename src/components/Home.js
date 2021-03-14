@@ -1,9 +1,10 @@
 import React from 'react';
+import mail from '../images/mail.jpg';
 
 const Home = () => {
     return (
         <div>
-            <img src='images/mail.jpg' className='mail' alt='mail icon' />
+            <img src={mail} className='mail' alt='mail icon' />
         </div>
     )
 }
