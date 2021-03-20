@@ -50,8 +50,36 @@ export const EducationData = [
         dates: "09/2014 - 07/2017",
         profile: "Modern Business - Management and Accounting (major in Organizational Psychology)"
     }
+];
+
+export const Projects = [
+    {
+        name: "One Step",
+        language: "React, RoR",
+        description: "React web application with Rails back-end that helps users research new activities to try. Includes evaluation which automatically surfaces activities that were matched best for the user. Use of design tools such as CSS. Utilized JSON Web Tokens and localStorage to store encrypted user information client-side. Active Model Serializers to provide a convention-based approach to serializing resources in Rails.",
+        link: "",
+        photo: "",
+    },
+    {
+        name: "Finder",
+        language: "React ",
+        description: "React single-page app. This project is a simplified front end clone of Netflix. Hosted by firebase. Created with React and CSS using Grid and Flexbox and React hooks. Leveraged MovieDB APIs to search for movies and display real-time database details (TMDB API).",
+        link: "",
+        photo: "",
+    },
+    {
+        name: "Movie Awards",
+        language: "React",
+        description: "JavaScript framework React single-page app. Built for the Summer 2021 Shopify UX and Web Developer Challenge. Fetched API from OMDb database, and use of localStorage to save nominations. Styled with CSS.",
+        link: "",
+        photo: "",
+    },
+    {
+        name: "Sudoku",
+        language: "Java Script",
+        description: "Multiple difficulty levels Sudoku game build with CSS, HTML, and vanilla JavaScript. Created with CSS. Conditional rendering to include three levels of difficulty, three timeline options, and two themes.",
+        link: "",
+        photo: "",
+    }
 ]
 	
-	
-
- 	
