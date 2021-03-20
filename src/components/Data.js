@@ -8,6 +8,9 @@ export const PersonalData = [
         lastname: "Bystranowska-Takahashi",
         location: "Queens, NY, USA",
         languages: "Polish, English",
+        coding: "JavaScript, Java, Ruby, SQL, CSS, HTML",
+        frameworks: "React, Ruby on Rails, Sinatra",
+        tools: "GitHub, GitHub Desktop, Postgres, Docker, VSCode"
         email: "a.bystranowska.takahashi@gmail.com",
         blog: "https://aleksandra-bystranowska.medium.com/",
         linkedin: "https://www.linkedin.com/in/aleksandra-bystranowska-takahashi-26635a89/",
