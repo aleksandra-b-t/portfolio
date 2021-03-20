@@ -2,6 +2,20 @@ import ff from '../images/ff.jpeg';
 import fp from '../images/fp.png';
 import nd from '../images/nd.png';
 
+export const PersonalData = [
+    {
+        name: "Aleksandra",
+        lastname: "Bystranowska-Takahashi",
+        location: "Queens, NY, USA",
+        languages: "Polish, English",
+        email: "a.bystranowska.takahashi@gmail.com",
+        blog: "https://aleksandra-bystranowska.medium.com/",
+        linkedin: "https://www.linkedin.com/in/aleksandra-bystranowska-takahashi-26635a89/",
+        github: "https://github.com/aleksandra-b-t",
+
+    }
+]
+
 export const ExperienceData = [
     {
         name: "DoinGud",
@@ -52,7 +66,7 @@ export const EducationData = [
     }
 ];
 
-export const Projects = [
+export const ProjectsData = [
     {
         name: "One Step",
         language: "React, RoR",
