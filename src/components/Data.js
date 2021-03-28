@@ -10,12 +10,12 @@ export const PersonalData = [
         languages: "Polish, English",
         coding: "JavaScript, Java, Ruby, SQL, CSS, HTML",
         frameworks: "React, Ruby on Rails, Sinatra",
-        tools: "GitHub, GitHub Desktop, Postgres, Docker, VSCode"
+        tools: "GitHub, GitHub Desktop, Postgres, Docker, VSCode",
         email: "a.bystranowska.takahashi@gmail.com",
         blog: "https://aleksandra-bystranowska.medium.com/",
         linkedin: "https://www.linkedin.com/in/aleksandra-bystranowska-takahashi-26635a89/",
         github: "https://github.com/aleksandra-b-t",
-
+        description: "Enthusiastic and detail-oriented software engineer with experience in full-stack development. With an education in psychology of management, my passion is applying my technical skills to create impactful projects to make a change. I continuously focus on self-improvement and pride myself on being agile, organized, and thriving in a team enviroment."
     }
 ]
 
