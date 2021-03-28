@@ -8,11 +8,10 @@ import Education from './components/Education';
 import {PersonalData, ExperienceData, EducationData, ProjectsData} from './components/Data.js'
 
 function App() {
-  const [position, setPosition] = useState({});
   return (
     <>
       <Home />
-      <About PersonalData={PersonalData}/>
+      <About PersonalData={PersonalData} ExperienceData={ExperienceData}/>
       <Projects ProjectsData={ProjectsData}/>
       <Education EducationData={EducationData}/>
       <Footer PersonalData={PersonalData}/>
