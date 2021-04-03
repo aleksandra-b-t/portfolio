@@ -5,6 +5,9 @@ const Footer = (props) => {
     return (
         <div>
             {data.email}
+            {data.linkedin}
+            {data.blog}
+            {data.github}
         </div>
     );
 }

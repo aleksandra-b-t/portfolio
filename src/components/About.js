@@ -6,7 +6,8 @@ const About = (props) => {
     return (
         <>
         <h1>Hello, {data.name}</h1>
-        {console.log(props)}
+        <h3>{data.description}</h3>
+        
         </>
     )
 }
