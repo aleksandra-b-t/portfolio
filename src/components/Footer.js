@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = (props) => {
+    const data = props.PersonalData[0];
     return (
         <div>
-            Footer
+            {data.email}
         </div>
     );
 }
