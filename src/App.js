@@ -10,11 +10,11 @@ import {PersonalData, ExperienceData, EducationData, ProjectsData} from './compo
 function App() {
   return (
     <>
-      <Home />
-      <About PersonalData={PersonalData} ExperienceData={ExperienceData}/>
+      {/* <Home />
+      <About PersonalData={PersonalData} ExperienceData={ExperienceData}/> */}
       <Projects ProjectsData={ProjectsData}/>
-      <Education EducationData={EducationData}/>
-      <Footer PersonalData={PersonalData}/>
+      {/* <Education EducationData={EducationData}/>
+      <Footer PersonalData={PersonalData}/> */}
     </>
   );
 }

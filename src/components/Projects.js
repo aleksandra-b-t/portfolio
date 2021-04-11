@@ -1,23 +1,22 @@
 import React from 'react';
-import { Carousel, Item, Caption } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 
 
 const Projects = (props) => {
     const data = props.ProjectsData;
     return (
     <>
-        <Carousel fade> 
-        
+        <Carousel> 
             {data.forEach((project) =>
             <Carousel.Item>
-                {console.log(project)}
+                {console.log(project.name)}
                 <img
                 className="d-block w-100"
-                src="holder.js/800x400?text=First slide&bg=373940"
+                src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
                 alt={project.name}
                 />
                     <Carousel.Caption>
-                        <h2> {project.name} </h2>
+                        <h3> {project.name} </h3>
                     </Carousel.Caption>
             </Carousel.Item>
             )}
