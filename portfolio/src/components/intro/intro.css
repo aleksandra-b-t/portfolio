@@ -88,4 +88,33 @@
     right: 0;
     object-fit: cover;
     position: absolute;
+    overflow: hidden;
 }
+
+@media screen and (max-width: 480px) {
+    .i {
+      flex-direction: column;
+    }
+  
+    .i-left-wrapper {
+      padding: 5%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 50%;
+    }
+  
+    .i-desc{
+      display: none;
+    }
+   
+    .i-backg{
+        clip-path: circle(50.2% at 98% 50%);
+        background-color: rgb(224, 195, 133);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+  }
