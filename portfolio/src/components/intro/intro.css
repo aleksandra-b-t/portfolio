@@ -1,6 +1,7 @@
 .i{
     display: flex;
     height: 100vh;
+
 }
 
 .i-left{
@@ -83,6 +84,8 @@
 .i-img{
     width: 300px;
     height: 500px;
+    top: 20%;
+    right: 0;
     object-fit: cover;
     position: absolute;
 }
