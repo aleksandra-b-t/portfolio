@@ -1,0 +1,85 @@
+.c{
+    height: 100vh;
+    position: relative;
+}
+
+.c-bg{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    position: absolute;
+}
+
+.c-wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.c-left{
+    flex: 1;
+    background-color: aquamarine;
+    margin-left: 5%;
+}
+
+.c-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-title{
+    font-size: 60px;
+    width: 80%;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 75%;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.c-desc{
+    font-weight: 200;
+}
+
+form {
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 5%;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 90%;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+  
+button {
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    background-color:cadetblue;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
