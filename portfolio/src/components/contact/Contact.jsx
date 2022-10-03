@@ -1,12 +1,12 @@
 import './contact.css';
 
 const Contact = () => {
-    
-    return ( 
+
+    return (
     <div>
-        
-    </div> 
+        tutaj beda moje kontaktowe informacje jak numer tel, email itp.
+    </div>
     );
 }
- 
+
 export default Contact;
