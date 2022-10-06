@@ -1,0 +1,13 @@
+.Footer {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "referencje contact";
+    grid-area: Footer;
+  }
+
+  .referencje { grid-area: referencje; }
+
+  .contact { grid-area: contact; }

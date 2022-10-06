@@ -1,19 +1,17 @@
+.about {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-items: center;
+  grid-template-areas:
+    "photo welcome"
+    "photo aboutInfo";
+  grid-area: about;
+}
 
+.photo { grid-area: photo; }
 
-  /* @media screen and (max-width: 480px) {
-    .a {
-      flex-direction: column;
-      text-align: center;
-      margin-top: 100px;
-    }
-    .a-left{
-        width: 100%;
-    }
-    .a-card {
-        height: 30vh;
-      }
-      .a-right{
-        padding: 20px;
-      }
+.welcome { grid-area: welcome; }
 
-  } */
+.aboutInfo { grid-area: aboutInfo; }

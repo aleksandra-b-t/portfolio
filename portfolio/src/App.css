@@ -9,3 +9,15 @@
     height: 100vh;
     background-color: #F5F5F5;
 }
+.App {  display: grid;
+    grid-template-columns: 0.5fr 1.9fr 0.6fr;
+    grid-template-rows: 50px 1.3fr 1.1fr 0.6fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "navBar navBar navBar"
+      "intro intro intro"
+      ". about ."
+      "Footer Footer Footer";
+  }
